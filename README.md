@@ -36,7 +36,7 @@ If your partner forked the repository originally, you should fork their reposito
 ## Instructions
 
 #### Part 1. Rendering Data
-Take a moment to familiarize yourself with the dataset by opening it in your browser: [http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson](http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson).
+Take a moment to familiarize yourself with the dataset by opening it in your browser: [https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson).
 
 + What is the structure of the data?
     + How many earthquakes does it list?
@@ -63,12 +63,10 @@ Write out the AJAX call that will grab the data and `console.log` the list of ea
 
 > **Pro-tip**: When in doubt, work in your Chrome Javascript Console! You can manipulate JSON, test your ideas, and even render elements to the page without ever touching your `app.js` file!
 
-**Switch to Template Literals**: We encourage you to use template liteals (with the `` ` ``). At a certain point it's easier to work with a *template* than to build HTML strings by hand.
-
 #### Part 3. Add Google Maps
 - Your next goal is to integrate Google Maps:
     - Follow the tutorial at [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
-        + Note that you would normally need to sign up for an API key, but we've provided one (See `index.html` line 10)
+        + Note that you would normally need to sign up for an API key, but we've provided one (See `index.html` line 16)
     - Please center your map on your city:
         - Austin:  `{lat: 30.2682, lng: -97.74295}`
         - San Francisco: `{lat: 37.78, lng: -122.44}`
