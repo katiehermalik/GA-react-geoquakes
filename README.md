@@ -30,8 +30,6 @@ Here's a screenshot of what the final product could look like:
 
 ![geoquakes](https://cloud.githubusercontent.com/assets/4304660/25784846/9905f872-3339-11e7-92c5-30775b6bb8f4.png)
 
-If your partner forked the repository originally, you should fork their repository **after you finish working together** so that you'll have your own copy of your work to edit in the future. Link your own repo to your personal website.
-
 
 ## Instructions
 
